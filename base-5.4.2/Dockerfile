@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM zshusers/zsh-5.4.2:latest
 
 RUN \
     apt update && \
@@ -6,7 +6,6 @@ RUN \
     curl \
     git \
     mercurial \
-    zsh \
     vim \
     ruby \
     python \
@@ -28,5 +27,3 @@ ENV DEFUALT_USER=tom
 RUN git clone https://github.com/denysdovhan/spaceship-prompt.git --recursive
 
 COPY zshrc .zshrc
-
-CMD ["/bin/zsh", "-l"]
