@@ -25,9 +25,13 @@ Images for more `Zsh` versions, frameworks and plugin managers will be added soo
 | `Zsh v5.3.1` | [zsh-users/zsh-5.3.1][4] |
 | `Zsh v5.2`   | [zsh-users/zsh-5.2][5]   |
 
+#### LICENCE
+
+MIT © [Salmanul Farzy][6]
 
 [1]: https://github.com/denysdovhan/spaceship-prompt
 [2]: https://hub.docker.com/r/zshusers/zsh-5.5.1
 [3]: https://hub.docker.com/r/zshusers/zsh-5.4.2
 [4]: https://hub.docker.com/r/zshusers/zsh-5.3.1
 [5]: https://hub.docker.com/r/zshusers/zsh-5.2
+[6]: https://github.com/salmanulfarzy
