@@ -5,15 +5,11 @@ RUN \
     DEBAIN_FRONTEND=noninteractive apt install -y \
     curl \
     git \
-    mercurial \
     vim \
-    ruby \
-    python \
-    python-virtualenv \
     nodejs \
     jq \
     sudo \
-    locales 
+    locales
 
 RUN adduser --shell /bin/zsh --gecos 'tom' --disabled-password tom
 RUN locale-gen "en_US.UTF-8"
